@@ -7,3 +7,5 @@ Currently, GD Statistics is a command-line tool. There are plans to incorporate 
 ## Usage
 
 To use, simply run the program and provide the path to a project's `godot.project` file as an argument.
+
+![Project demo image](demo.png "Demo")

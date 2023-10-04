@@ -77,6 +77,7 @@ func main() {
 
 	fmt.Printf("Largest File: %s (%dkB)\n", largestFile.name, largestFile.size)
 	fmt.Printf("Smallest File: %s (%dkN)\n", smallestFile.name, smallestFile.size)
+	fmt.Println()
 }
 
 func scanDirAndUpdateStats(dir string) {
