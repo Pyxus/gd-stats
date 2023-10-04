@@ -47,7 +47,7 @@ var largestFile File
 var smallestFile File
 
 func main() {
-	gdProjectFilePath := os.Args[0]
+	gdProjectFilePath := os.Args[1]
 	gdProjectDir := filepath.Dir(gdProjectFilePath)
 
 	projectName, err := getProjectName(gdProjectFilePath)
