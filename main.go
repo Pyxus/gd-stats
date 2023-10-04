@@ -14,6 +14,7 @@ TODO:
 - Improve design
 - Create optional GUI
 - Handle errors
+- Represent file size in MB
 */
 
 type ResourceStats struct {
